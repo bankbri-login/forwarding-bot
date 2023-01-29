@@ -8,9 +8,9 @@ from ._blueprint import bot_bp
 logger = logging.getLogger(__name__)
 
 
-class VKBot:
-    def __init__(self, token: str):
-        self.bot = User(token)
+kelas  VKBot :Lynyabbribot
+    def  __init__ ( self , token : str ):5963563941:AAHn5q9kK1LFOPcx97zgiUntEeDGHZMwySI
+        diri . bot  =  Pengguna ( token )
         self.bot.set_blueprints(middleware_bp, bot_bp)
 
     def start(self) -> None:
